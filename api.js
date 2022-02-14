@@ -332,6 +332,7 @@ function apiData() {
     <h1>${data.source.id}</h1>
     <img src=${data.url}>
     <h2>${data.author}</h2>
+    <h2>${data.description}</h2>
     </div>`;
   });
   card.innerHTML = mydata;
